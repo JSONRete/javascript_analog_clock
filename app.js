@@ -10,11 +10,15 @@ function getTime() {
     const milSec = now.getMilliseconds()
     const timeInterval = 6
 
-    secondsHand.style.transform = 'rotate(60deg)'
-    // console.log(now, "I'm Here!")
-    // console.log(seconds, "I'm Here!")
-    // console.log(minutes, "I'm Here!")
-    // console.log(hours, "I'm Here!")
-    // console.log(milSec, "I'm Here!")
+    console.log(seconds)
+    console.log(minutes * timeInterval)
+    console.log(minutes * timeInterval + seconds / 10)
+    console.log(hours * 30 + minutes /2)
+
+    secondsHand.style.transform = 'rotate(' + (seconds * timeInterval) + 'deg)'
+    minutesHand.style.transform = 'rotate(' + (minutes * timeInterval + seconds / 10) + 'deg)'
+    hoursHand.style.transform = 'rotate(' + (hours * 30 + minutes /2) + 'deg)'
+
 }
-getTime() 
+
+setInterval(getTime, 100)
