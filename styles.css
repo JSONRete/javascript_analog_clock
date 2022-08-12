@@ -11,4 +11,11 @@ body {
     width: 300px;
     border-radius: 150px;
     border:  solid 3px rgb(233, 222, 233);
+    background-color: aqua;
+}
+
+.seconds-hand {
+    height: 130px;
+    width: 3px;
+    background-color: green;
 }
