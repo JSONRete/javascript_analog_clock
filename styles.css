@@ -12,10 +12,12 @@ body {
     border-radius: 150px;
     border:  solid 3px rgb(233, 222, 233);
     background-color: aqua;
+    position: absolute;
 }
 
 .seconds-hand {
     height: 130px;
     width: 3px;
     background-color: green;
+    right: 150px;
 }
