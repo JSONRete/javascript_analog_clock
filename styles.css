@@ -5,3 +5,10 @@ body {
     height: 100vh;
     background-color: rgb(red, green, blue);
 }
+
+.clock {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    border:  solid 3px rgb(233, 222, 233);
+}
