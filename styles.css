@@ -16,8 +16,10 @@ body {
 }
 
 .seconds-hand {
+    position: absolute;
     height: 130px;
     width: 3px;
     background-color: green;
     right: 150px;
+    bottom: 150px;
 }
