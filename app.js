@@ -7,7 +7,11 @@ function getTime() {
     const seconds = now.getSeconds()
     const minutes = now.getMinutes()
     const hours = now.getHours()
-
-    console.log(now)
+    const milSec = now.getMilliseconds()
+    console.log(now, "I'm Here!")
+    console.log(seconds, "I'm Here!")
+    console.log(minutes, "I'm Here!")
+    console.log(hours, "I'm Here!")
+    console.log(milSec, "I'm Here!")
 }
-getTime()
+getTime() 
