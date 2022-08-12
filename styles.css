@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(red, green, blue);
+    background-color: orangered;
 }
 
 .clock {
@@ -15,7 +15,7 @@ body {
     position: absolute;
 }
 
-.seconds-hand {
+#seconds-hand {
     position: absolute;
     height: 130px;
     width: 4px;
@@ -25,7 +25,7 @@ body {
     opacity: 50%;
 }
 
-.minutes-hand {
+#minutes-hand {
     position: absolute;
     height: 100px;
     width: 2px;
@@ -33,9 +33,10 @@ body {
     right: 149px;
     bottom: 150px;
     opacity: 50%;
+    transform-origin: 0% 100%;
 }
 
-.hours-hand {
+#hours-hand {
     position: absolute;
     height: 80px;
     width: 4px;
